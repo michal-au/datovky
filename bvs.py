@@ -146,26 +146,25 @@ assert member(t, 3) is True
 assert member(t, 7) is True
 assert member(t, 6) is False
 
-insert(t, 2)
-insert(t, 4)
-insert(t, 6)
-insert(t, 8)
-insert(t, 9)
-insert(t, 10)
-insert(t, 11)
-print t
-delete(t, 5)
-print t
-delete(t, 11)
-print t
-delete(t, 8)
-delete(t, 3)
-print t
-delete(t, 4)
-print t
-delete(t, 2)
-print t
-'''
-insert(t, 8)
-print t
-'''
+if __name__ == "__main__":
+    insert(t, 2)
+    insert(t, 4)
+    insert(t, 6)
+    insert(t, 8)
+    insert(t, 9)
+    insert(t, 10)
+    insert(t, 11)
+    print t
+    delete(t, 5)
+    print t
+    delete(t, 11)
+    print t
+    delete(t, 8)
+    delete(t, 3)
+    print t
+    delete(t, 4)
+    print t
+    delete(t, 2)
+    print t
+    insert(t, 8)
+    print t
